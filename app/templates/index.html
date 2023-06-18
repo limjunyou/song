@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+     
+    <audio src="static/song.mp3" id="Audio"></audio>
+
+</head>
+<body>
+    <center>
+    <table border="1">
+        <tr>
+            <td>fries</td><td><img src="mc.jpg" width="100"></td>
+        </tr>
+        <tr>
+            <td>kit kat</td><td><img src="kitkat.jpg" width="100"></td>
+        </tr>
+        <tr>
+            <td>song</td><td><button onclick="MyAudio()">play song</button></td>
+        </tr>
+    </table>
+</center>
+
+    <script>
+        function MyAudio(){
+            document.getElementById("Audio").play();
+        }
+    </script>
+
+</body>
+</html>
